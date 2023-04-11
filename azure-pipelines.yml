@@ -37,5 +37,5 @@ steps:
     azureSubscription: 'Azure subscription 1 (32c25b13-23f8-49ec-b4c6-c4e0daa86f20)'
     appType: 'webApp'
     appName: 'Testing2webappDBU'
-    package: '$(System.DefaultWorkingDirectory)/**/*.zip'
+    package: '${workspaceFolder}/WebApplication1.csproj'
     deploymentMethod: 'auto'
